@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/mcp48/StatsCalculator.svg?branch=master)](https://travis-ci.com/mcp48/StatsCalculator)
 ### Michael Payne
 ### IS 601
 ### Statistics Calculator Project
