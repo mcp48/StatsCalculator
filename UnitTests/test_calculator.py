@@ -34,3 +34,13 @@ class MyTestCase(unittest.TestCase):
         for row in test_data:
             self.assertAlmostEqual(self.calculator.divide(row['Value 1'], row['Value 2']), float(row['Result']))
             self.assertAlmostEqual(self.calculator.result, float(row['Result']))
+
+    def test_square_method_calculator(self):
+        test_data = CSVReader('./UnitTests/TestData/Unit_Tests_Square.csv').data
+        for row in test_data:
+            self.assertEqual(self.calculator.square(row['Value 1']), int(row['Result']))
+            self.assertEqual(self.calculator.result, int(row['Result']))
+
+
+if __name__ == '__main__':
+    unittest.main()
