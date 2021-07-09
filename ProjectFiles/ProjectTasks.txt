@@ -9,7 +9,6 @@
 3: Implement Basic Calculator Functions
 4: Create a Random Generator
 5: Create a Statistical Calculator with Basic Functions
-6: Implement Population Sampling Functions
-7: Create a File Checker to Parse Through Input Data to Make Sure It Is Only Numbers
-8: Create an Absolute Path Function to Retrieve the Input Files' Absolute Path
-9: Implement Travis CI by adding the ".travis.yml" file and implementing the build status icon to the README.md file
+6: Create a File Checker to Parse Through Input Data to Make Sure It Is Only Numbers
+7: Create an Absolute Path Function to Retrieve the Input Files' Absolute Path
+8: Implement Travis CI by adding the ".travis.yml" file and implementing the build status icon to the README.md file
