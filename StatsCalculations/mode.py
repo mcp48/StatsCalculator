@@ -9,7 +9,7 @@ def mode(data):
         mode = [a for a, v in get_mode.items() if v == max(list(count.values()))]
 
         if len(mode) == total_values:
-            get_mode = "Mode not found"
+            get_mode = "Mode not found."
 
         else:
             get_mode = mode[0]
