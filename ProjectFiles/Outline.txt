@@ -60,12 +60,12 @@
 
     3: Random Generator Static Classes:
         1. Methods
-            1: random_integer -> Calls randomInt class method of randomInt
-            2: random_decimal -> Calls randomDec class method of randomDec
-            3: random_integer_seeded -> Calls randomIntSeed class method of randomIntSeed
-            4: random_decimal_seeded -> Calls randomDecSeed class method of randomDecSeed
-            5: random_integer_list -> Calls randomIntList class method of randomIntList with a seed
-            6: random_decimal_list -> Calls randomDecList class method of randomDecList with a seed
+            1: random_integer -> Calls randomInteger class method of randomInteger
+            2: random_decimal -> Calls randomDecimal class method of randomDecimal
+            3: random_integer_seeded -> Calls randomIntegerSeeded class method of randomIntSeeded
+            4: random_decimal_seeded -> Calls randomDecSeeded class method of randomDecSeeded
+            5: random_integer_list -> Calls randomIntegerList class method of randomIntegerList with a seed
+            6: random_decimal_list -> Calls randomDecimalList class method of randomDecimalList with a seed
 
 
     4: Random Generator Operations Classes:
@@ -178,52 +178,51 @@
             4. Random Decimal Generator (Seeded) -> Generate a random decimal between two numbers with a seed
 
     	3: Random Generator Static Classes:
-	    1. Methods
-            1: Random Generator
-                1: random_integer -> Calls randomInt class method of randomInt
-                2: random_decimal -> Calls randomDec class method of randomDec
-                3: random_int_seed -> Calls randomIntSeed class method of randomIntSeed
-                4: random_dec_seed -> Calls randomDecSeed class method of randomDecSeed
-                5: random_int_list -> Calls randomIntList class method of randomIntList with a seed
-                6: random_dec_list -> Calls randomDecList class method of randomDecList with a seed
+            1. Methods
+                1: random_integer -> Calls randomInteger class method of randomInteger
+                2: random_decimal -> Calls randomDecimal class method of randomDecimal
+                3: random_integer_seeded -> Calls randomIntegerSeeded class method of randomIntSeeded
+                4: random_decimal_seeded -> Calls randomDecSeeded class method of randomDecSeeded
+                5: random_integer_list -> Calls randomIntegerList class method of randomIntegerList with a seed
+                6: random_decimal_list -> Calls randomDecimalList class method of randomDecimalList with a seed
 
             2: Random Number Generator
-                1: randomNumGeneratorInt -> Calls random_num_generatorInt class method of random_num_generatorInt
-                2: randomNumGeneratorDec -> Calls random_num_generatorDec class method of random_num_generatorDec
-                3: randomNumGeneratorIntSeed -> Calls random_num_generatorIntSeed class method of random_num_generatorIntSeed
-                4: randomNumGeneratorDecSeed -> Calls random_num_generatorDecSeed class method of random_num_generatorDecSeed
+                1: random_number_generator_integer -> Calls random_num_generatorInt class method of randomInteger
+                2: random_number_generator_decimal -> Calls random_num_generatorDec class method of randomDecimal
+                3: random_number_generator_integer_seeded -> Calls random_num_generatorIntSeed class method of randomIntegerSeeded
+                4: random_number_generator_decimal_seeded -> Calls random_num_generatorDecSeed class method of randomDecimalSeeded
 
-    4: Random Generator Operations Classes:
-        1: randomInt
-            1: Methods
-                1. Generating random integers within two numbers
-        2: randomDec
-            1: Methods
-                1. Generating random decimals within two numbers
-        3: randomIntSeed
-            1: Methods
-                1. Generating random integers within two numbers using a seed
-        4: randomDecSeed
-            1: Methods
-                1. Generating random decimals within two numbers using a seed
-        5: randomIntList
-            1: Methods
-                1. Generating random list of integers between two numbers with specified length with a seed
-        6: randomDecList
-            1: Methods
-                1. Generating random list of decimals between two numbers with specified length with a seed
-        7: randomNumGeneratorInt
-            1: Methods
-                1. Generating random integers within two numbers
-        8: randomNumGeneratorDec
-            1: Methods
-                1. Generating random decimal within two numbers
-        9: randomNumGeneratorIntSeed
-            1: Methods
-                1. Generating random integers within two numbers using a seed
-        10: randomNumGeneratorDecSeed
-            1: Methods
-                1. Generating random decimal within two numbers using a seed
+        4: Random Generator Operations Classes:
+            1: randomInteger
+                1: Methods
+                    1. Generating random integers within two numbers
+            2: randomDecimal
+                1: Methods
+                    1. Generating random decimals within two numbers
+            3: randomIntegerSeeded
+                1: Methods
+                    1. Generating random integers within two numbers using a seed
+            4: randomDecimalSeeded
+                1: Methods
+                    1. Generating random decimals within two numbers using a seed
+            5: randomIntegerList
+                1: Methods
+                    1. Generating random list of integers between two numbers with specified length with a seed
+            6: randomDecimalList
+                1: Methods
+                    1. Generating random list of decimals between two numbers with specified length with a seed
+            7: randomNumberInteger
+                1: Methods
+                    1. Generating random integers within two numbers
+            8: randomNumberDecimal
+                1: Methods
+                    1. Generating random decimal within two numbers
+            9: randomNumberIntegerSeeded
+                1: Methods
+                    1. Generating random integers within two numbers using a seed
+            10: randomNumberDecimalSeeded
+                1: Methods
+                    1. Generating random decimal within two numbers using a seed
 
 5: File Checker Object:
     1: Properties
@@ -241,4 +240,4 @@
                     3. Checks to see if the string being passed in only contains one decimal point to avoid errors in calculation
 
 Developer Notes:
-    A new random number generator that uses the code from the Random Generator Function.
+    A new random number generator that uses the code from the Random Generator Function was created.
