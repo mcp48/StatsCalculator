@@ -2,8 +2,7 @@ import unittest
 from StatsCalculations.statisticsCalculator import StatisticsCalculator
 from CSVReader.csv_reader import CSVReader
 from RandomGenerator.randomIntegerList import random_integer_list
-from numpy import var, std, mean
-from pprint import pprint
+from numpy import var, std
 
 
 class MyTestCase(unittest.TestCase):
@@ -17,6 +16,16 @@ class MyTestCase(unittest.TestCase):
 
     def test_instantiate_stats_calculator(self):
         self.assertIsInstance(self.statsCalc, StatisticsCalculator)
+
+    def test_mean(self):
+        for row in self.testAnswers:
+            self.assertEqual(self.statsCalc.mean(self.testData), float(row['Mean']))
+            self.assertEqual(self.statsCalc.result, float(row['Mean']))
+
+    def test_median(self):
+        for row in self.testAnswers:
+            self.assertEqual(self.statsCalc.median(self.testData), float(row['Median']))
+            self.assertEqual(self.statsCalc.result, float(row['Median']))
 
 
 if __name__ == '__main__':
