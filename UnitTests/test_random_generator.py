@@ -16,6 +16,11 @@ class MyTestCase(unittest.TestCase):
     def test_instantiate_calculator_self(self):
         self.assertIsInstance(self.random, Random)
 
+    def test_random_integer_method(self):
+        int_random = str(self.random.random_integer(self.start, self.end))
+        pprint("Random integer: " + int_random)
+        self.assertEqual(isinstance(self.random.random_integer(self.start, self.end), int), True)
+
 
 if __name__ == '__main__':
     unittest.main()
