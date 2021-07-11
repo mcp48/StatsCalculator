@@ -21,6 +21,11 @@ class MyTestCase(unittest.TestCase):
         pprint("Random integer: " + int_random)
         self.assertEqual(isinstance(self.random.random_integer(self.start, self.end), int), True)
 
+    def test_random_integer_seeded(self):
+        int_seeded = str(self.random.random_integer_seeded(self.start, self.end, self.seed))
+        pprint("Random seeded integer: " + int_seeded)
+        self.assertEqual(int_seeded, str(self.random.random_integer_seeded(self.start, self.end, self.seed)))
+
 
 if __name__ == '__main__':
     unittest.main()
