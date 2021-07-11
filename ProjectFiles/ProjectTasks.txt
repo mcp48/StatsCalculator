@@ -2,8 +2,7 @@
     1. Add Calculator Object Outline -> Contains information on Calculator object
     2. Add Random Generator Object Outline -> Contains information on Random Generator object
     3. Add Statistics Calculator Object Outline -> Contains Population Sampling Functions
-    4. Add Random Number Generator (Additional Module) Object Outline -> Contains information on Random Number Generator object
-    5. Add File Checker Object Outline -> Contains information on File Checker object
+    4. Add File Checker Object Outline -> Contains information on File Checker object
 
 2: Create a Task Breakdown
 3: Implement Basic Calculator Functions

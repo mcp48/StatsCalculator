@@ -159,72 +159,7 @@
                 1: Methods
                     1. Standard deviation of a set of numbers
 
-4: Random Number Generator Object:
-    1: Properties:
-		1. Result
-    2: Methods:
-	1: Random Generator Object Methods:
-            1. Random Integer Generator -> Generate a random integer between two numbers without a seed
-            2. Random Decimal Generator -> Generate a random decimal between two numbers without a seed
-            3. Random Integer Generator (Seeded) -> Generate a random integer between two numbers with a seed
-            4. Random Decimal Generator (Seeded) -> Generate a random decimal between two numbers with a seed
-            5. Generate List of Integers (Seeded) -> Generate a random list of integers with a seed (same values everytime)
-            6. Generate List of Decimals (Seeded) -> Generate a random list of decimals with a seed (same values everytime)
-
-        2: Random Number Generator Object Methods:
-            1. Random Integer Generator -> Generate a random integer between two numbers without a seed
-            2. Random Decimal Generator -> Generate a random decimal between two numbers without a seed
-            3. Random Integer Generator (Seeded) -> Generate a random integer between two numbers with a seed
-            4. Random Decimal Generator (Seeded) -> Generate a random decimal between two numbers with a seed
-
-    	3: Random Generator Static Classes:
-            1. Methods
-                1: random_integer -> Calls randomInteger class method of randomInteger
-                2: random_decimal -> Calls randomDecimal class method of randomDecimal
-                3: random_integer_seeded -> Calls randomIntegerSeeded class method of randomIntSeeded
-                4: random_decimal_seeded -> Calls randomDecSeeded class method of randomDecSeeded
-                5: random_integer_list -> Calls randomIntegerList class method of randomIntegerList with a seed
-                6: random_decimal_list -> Calls randomDecimalList class method of randomDecimalList with a seed
-
-            2: Random Number Generator
-                1: random_number_generator_integer -> Calls random_num_generatorInt class method of randomInteger
-                2: random_number_generator_decimal -> Calls random_num_generatorDec class method of randomDecimal
-                3: random_number_generator_integer_seeded -> Calls random_num_generatorIntSeed class method of randomIntegerSeeded
-                4: random_number_generator_decimal_seeded -> Calls random_num_generatorDecSeed class method of randomDecimalSeeded
-
-        4: Random Generator Operations Classes:
-            1: randomInteger
-                1: Methods
-                    1. Generating random integers within two numbers
-            2: randomDecimal
-                1: Methods
-                    1. Generating random decimals within two numbers
-            3: randomIntegerSeeded
-                1: Methods
-                    1. Generating random integers within two numbers using a seed
-            4: randomDecimalSeeded
-                1: Methods
-                    1. Generating random decimals within two numbers using a seed
-            5: randomIntegerList
-                1: Methods
-                    1. Generating random list of integers between two numbers with specified length with a seed
-            6: randomDecimalList
-                1: Methods
-                    1. Generating random list of decimals between two numbers with specified length with a seed
-            7: randomNumberInteger
-                1: Methods
-                    1. Generating random integers within two numbers
-            8: randomNumberDecimal
-                1: Methods
-                    1. Generating random decimal within two numbers
-            9: randomNumberIntegerSeeded
-                1: Methods
-                    1. Generating random integers within two numbers using a seed
-            10: randomNumberDecimalSeeded
-                1: Methods
-                    1. Generating random decimal within two numbers using a seed
-
-5: File Checker Object:
+4: File Checker Object:
     1: Properties
         1. Number as a string
     2: Methods
@@ -238,6 +173,3 @@
                     1. Checks to see if the string being passed in is numeric
                     2. Checks to see if the string being passed in contains "-" (meaning it is a negative)
                     3. Checks to see if the string being passed in only contains one decimal point to avoid errors in calculation
-
-Developer Notes:
-    A new random number generator that uses the code from the Random Generator Function was created.
