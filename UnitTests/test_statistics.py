@@ -34,14 +34,15 @@ class MyTestCase(unittest.TestCase):
 
     def test_variance_method(self):
         var_test_val = (var(self.testData))
-        self.assertEqual(self.statsCalc.variance(self.testData), var_test_val)
-        self.assertEqual(self.statsCalc.result, var_test_val)
+        self.assertAlmostEqual(self.statsCalc.variance(self.testData), var_test_val)
+        self.assertAlmostEqual(self.statsCalc.result, var_test_val)
 
     def test_standard_deviation(self):
         std_test_val = (std(self.testData))
         round_test = round(float(std_test_val), 8)
-        self.assertEqual(self.statsCalc.standard_deviation(self.testData), round_test)
-        self.assertEqual(self.statsCalc.result, round_test)
+        self.assertAlmostEqual(self.statsCalc.standard_deviation(self.testData), round_test)
+        self.assertAlmostEqual(self.statsCalc.result, round_test)
+
 
 if __name__ == '__main__':
     unittest.main()
