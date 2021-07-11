@@ -12,7 +12,6 @@ class MyTestCase(unittest.TestCase):
         self.testData = [int(row['Value']) for row in self.allData]
         self.testAnswers = CSVReader('./UnitTests/TestData/Stats_Answers.csv').data
         self.list = random_integer_list(1, 100, 20, 10)
-        # self.num_val = 4
 
     def test_instantiate_stats_calculator(self):
         self.assertIsInstance(self.statsCalc, StatisticsCalculator)
