@@ -15,4 +15,4 @@ def variance(data):
         return result
 
     except ValueError:
-        print("ERROR!  That is an empty array.  Try again.")
+        print("ERROR: That is an emtpy array! Try again.")
