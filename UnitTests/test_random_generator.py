@@ -36,6 +36,22 @@ class MyTestCase(unittest.TestCase):
         pprint("Seeded decimal: " + seeded_decimal)
         self.assertEqual(seeded_decimal, str(self.random.random_decimal_seeded(self.start, self.end, self.seed)))
 
+    def test_random_integer_list(self):
+        integer_array = str(self.random.random_integer_list(self.start, self.end, self.length, self.seed))
+        integer_list = (self.random.random_integer_list(self.start, self.end, self.length, self.seed))
+        pprint("Integer array with a seed: " + integer_array)
+        for val in integer_list:
+            test_value = int(val)
+            self.assertEqual(isinstance(test_value, int), True)
+
+    def test_random_decimal_list(self):
+        decimal_array = str(self.random.random_decimal_list(self.start, self.end, self.length, self.seed))
+        decimal_list = (self.random.random_decimal_list(self.start, self.end, self.length, self.seed))
+        pprint("Decimal array with a seed: " + decimal_array)
+        for val in decimal_list:
+            test_value = float(val)
+            self.assertEqual(isinstance(test_value, float), True)
+
 
 if __name__ == '__main__':
     unittest.main()
