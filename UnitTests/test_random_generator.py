@@ -26,6 +26,11 @@ class MyTestCase(unittest.TestCase):
         pprint("Random seeded integer: " + int_seeded)
         self.assertEqual(int_seeded, str(self.random.random_integer_seeded(self.start, self.end, self.seed)))
 
+    def test_random_decimal_method(self):
+        decimal_random = str(self.random.random_decimal(self.start, self.end))
+        pprint("Random decimal: " + decimal_random)
+        self.assertEqual(isinstance(self.random.random_decimal(self.start, self.end), float), True)
+
 
 if __name__ == '__main__':
     unittest.main()
